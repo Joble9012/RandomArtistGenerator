@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Environment & Secrets =====
+.env
+*.env
+
+# ===== SQLite Database =====
+*.db
+*.sqlite3
+
+# ===== Build / Distribution =====
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# ===== Logs & Cache =====
+*.log
+.cache/
+*.tmp
+
+# ===== Virtual Environments =====
+venv/
+env/
+.venv/
+ENV/
+.env.bak/
+
+# ===== macOS / Windows =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editor Settings =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Example / Safe Template =====
+# (Keep this one!)
+!.env.example
